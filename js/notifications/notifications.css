@@ -1,0 +1,148 @@
+.f-notification {
+    position: fixed;
+    left: 10px;
+    bottom: -250px;
+    letter-spacing: 0;
+    width: 360px;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.9;
+    border: solid 1px #3333cc;
+    border-radius: 100px;
+    padding: 15px 40px;
+    letter-spacing: 2px;
+    font-family: 'Rajdhani', serif;
+    z-index: 1000;
+    letter-spacing: 0.6px;
+}
+
+.f-notification-close {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgba(255,255, 255, 0.3);
+}
+
+.f-notification-close i {
+    font-size: 10px;
+}
+
+.f-notification-close:hover {
+    transition: 0.5s;
+    color: rgba(255,255, 255, 0.6);
+}
+
+.f-notification-c-image-left {
+    width: 55px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.f-notification-c-texts-left {
+    float: left;
+    width: 200px;
+}
+
+.f-notification-c-text {
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.f-notification-c-text:last-child {
+    margin-bottom: 0px;
+    line-height: 16px;
+}
+
+.f-notification-text-bold {
+    font-weight: bold;
+}
+
+.f-notification-text-product {
+    font-size: 14.5px;
+    color: #fcb84d;
+}
+
+.f-notification-text-name {
+    text-align: left;
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.f-notification-text-localization {
+    text-align: right;
+    float: right;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.f-notification-text-time {
+    font-size: 12px;
+}
+
+.slide-down {
+    animation: slide-down 0.6s forwards ease-in-out;
+}
+
+.slide-up {
+    animation: slide-up 0.6s forwards ease-in-out;
+}
+
+@keyframes slide-down {
+    0% { bottom: 10px }
+    100% { bottom: -250px }
+}
+
+@keyframes slide-up {
+    0% { bottom: -250px }
+    100% { bottom: 10px }
+}
+
+@media (max-width: 550px) {
+    .f-notification {
+        width: 300px;
+        height: auto;
+    }
+
+    .f-notification-c-image-left {
+        width: 45px;
+        height: auto;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .f-notification-c-texts-left {
+        float: left;
+        width: 150px;
+    }
+
+    .f-notification-c-text {
+        line-height: 14px;
+    }
+
+    .f-notification-text-name {
+        text-align: left;
+        float: left;
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .f-notification-text-localization {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .f-notification-text-product {
+        font-size: 10.5px;
+    }
+
+    .f-notification-text-time {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Anodina-Bold";
+    src: url("../fonts/anodina/Anodina-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Anodina-Regular";
+    src: url("../fonts/anodina/Anodina-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Anodina-Light";
+    src: url("../fonts/anodina/Anodina-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Plateia-Bold";
+    src: url("../fonts/plateia/Plateia\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url("../fonts/worksans/WorkSans-Regular.ttf") format("truetype");
+}
